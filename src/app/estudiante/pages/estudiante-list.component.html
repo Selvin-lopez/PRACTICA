@@ -1,0 +1,16 @@
+<h2>Listado de Estudiantes en Arreglo</h2>
+<ul class="list-group">
+  <li *ngFor="let student of students" class="list-group-item d-flex justify-content-between align-items-center">
+    <div>
+      <span class="text-primary">{{ student.nombre }}</span>
+      <span class="text-primary">{{ student.apellido }}</span>
+      <span> -> DPI: {{ student.dpi }}</span>
+      <span> -> TelefonoCelular: {{ student.telefonocelular }}</span>
+      <span> -> TelefonoCasa: {{ student.telefonocasa }}</span>
+      <span class="text-primary">{{ student.correoelectronico }}</span>
+      <span> -> NIT: {{ student.nit }}</span>
+      <span class="text-primary">{{ student.direccion }}</span>
+    </div>
+  </li>
+</ul>
+

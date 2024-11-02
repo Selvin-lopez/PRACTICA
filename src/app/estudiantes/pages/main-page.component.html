@@ -1,0 +1,18 @@
+<h1>Estudiantes</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+
+    <!-- onDelete -->
+    <estudiantes-list [characterList]="characters"
+              (onDelete)="onDeleteCharacter($event)"></estudiantes-list>
+  </div>
+
+  <div class="col">
+    <!-- add-character -->
+    <estudiantes-add-character (onNewCharacter)="onNewCharacter($event)" ></estudiantes-add-character>
+
+
+  </div>
+</div>

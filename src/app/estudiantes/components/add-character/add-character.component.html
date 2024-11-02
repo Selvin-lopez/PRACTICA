@@ -1,0 +1,32 @@
+<h4>Agregar Estudiantes</h4>
+
+<form class="row" (ngSubmit)="emitCharacter()">
+
+  <input
+    type="text"
+    [(ngModel)]="character.nombre"
+    name="nombre"
+    class="form-control mb-2"
+    placeholder="Nombre">
+
+  <input
+    type="number"
+    [(ngModel)]="character.edad"
+    name="edad"
+    class="form-control mb-2"
+    placeholder="Edad">
+
+    <input
+    type="text"
+    [(ngModel)]="character.email"
+    name="email"
+    class="form-control mb-2"
+    placeholder="Email">
+
+  <button type="submit" class="btn btn-primary">
+    Agregar
+  </button>
+
+  <!-- <pre>{{ character | json }}</pre> -->
+
+</form>

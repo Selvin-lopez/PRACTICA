@@ -1,0 +1,32 @@
+<h4>Agregar Peliculas</h4>
+
+<form class="row" (ngSubmit)="emitCharacter()">
+
+  <input
+    type="text"
+    [(ngModel)]="character.nombre"
+    name="nombre"
+    class="form-control mb-2"
+    placeholder="Nombre">
+
+  <input
+    type="number"
+    [(ngModel)]="character.precio"
+    name="precio"
+    class="form-control mb-2"
+    placeholder="Precio">
+
+    <input
+    type="text"
+    [(ngModel)]="character.genero"
+    name="genero"
+    class="form-control mb-2"
+    placeholder="Genero">
+
+  <button type="submit" class="btn btn-primary">
+    Agregar
+  </button>
+
+  <!-- <pre>{{ character | json }}</pre> -->
+
+</form>
