@@ -8,5 +8,6 @@ export interface Student {
   correoelectronico: string;
   nit: string;
   creditos:string;
+  carrera: string;
   direccion: string;
 }
