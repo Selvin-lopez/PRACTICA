@@ -7,5 +7,6 @@ export interface Student {
   telefonocasa: string;
   correoelectronico: string;
   nit: string;
+  creditos:string;
   direccion: string;
 }
