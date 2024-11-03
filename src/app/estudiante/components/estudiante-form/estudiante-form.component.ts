@@ -23,6 +23,7 @@ export class StudentFormComponent {
       telefonocasa: ['', Validators.required],
       correoelectronico: ['', Validators.required],
       nit: ['', Validators.required],
+      creditos:['', Validators.required], 
       direccion: ['', Validators.required],
 
     });
